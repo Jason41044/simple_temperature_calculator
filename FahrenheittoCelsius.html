@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Fahrenheit to Celsius </title>
+    <script src="/scripts/FahrenheittoCelsius.js"></script>
+    <link rel="stylesheet" href="/css/FahrenheittoCelsius.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    </linkrel>
+</head>
+<main>
+
+    <!-- NAV BAR -->
+    <div class="hero-image">
+        <nav class="navbar navbar-expand-md p-0 justify-content-around">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="FahrenheittoCelsius.html">Fahrenheit to Celsius
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="CelsiustoFahrenheit.html">Celsius to Fahrenheit
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <body>
+
+        <div class="Calculator">
+            <form>
+                <p>
+                <h1>Fahrenheit to Celsius Calculator</h1>
+                <label for="enterTemp">Enter Temperature (&#x2109;)</label>
+                <input type="text" id="enterTemp" class="enteredTemp">
+                </p>
+
+                <p class="convertedTemp">Converted Temperature (&#x2103;) <input type="text" id="convertedResults" readonly /></p>
+                <p>
+                    <input type="button" value="Convert" id="convertBtn">
+                    <input type="reset" value="Reset">
+                </p>
+            </form>
+        </div>
+    </body>
+
+</main>
+
+</html>

@@ -1,0 +1,76 @@
+/* Navbar*/
+
+.navbar {
+    background-color: linear-gradient(to right, red , blue);F79;
+}
+
+ul {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+
+.nav-link {
+    color: white;
+}
+
+
+form {
+    padding: 20px;
+    margin: 120px;
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+form h1 {
+    padding: 40px;
+    color: white;
+    font-size: 80px;
+}
+
+body {
+    background-image: linear-gradient(to right, red , blue);
+}
+
+
+label {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+p.convertedTemp {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+input#enterTemp {
+    width: 5%;
+    height: 10%;
+    font-size: 25px;
+}
+
+input#convertedResults {
+    width: 5%;
+    height: 80%;
+    font-size: 25px;
+}
+
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url(/images/weather\ banner.webp);
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }

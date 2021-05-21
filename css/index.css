@@ -1,0 +1,55 @@
+/* Navbar*/
+
+.navbar {
+    background-color: linear-gradient(to right, red , blue);F79;
+}
+
+ul {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+
+.nav-link {
+    color: white;
+}
+
+
+
+.pagecontent {
+    background-image: linear-gradient(to right, red , blue);
+    color: white;
+    
+}
+
+
+section h1 {
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    padding: 150px;
+}
+section h4 {
+    font-weight: bold;
+    font-size: 35px;
+    padding: 15px;
+}
+section p {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url(/images/weather\ banner.webp);
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
